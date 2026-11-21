@@ -1,0 +1,13 @@
+# Install torch + torchaudio FIRST with the CUDA 12.8 build (needed for the Blackwell RTX PRO 6000):
+#   pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu128
+# then:
+#   pip install -r requirements.txt
+transformers
+safetensors
+numpy
+pandas
+soundfile
+scikit-learn
+tqdm
+fvcore
+torchinfo
